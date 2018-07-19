@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background: #eee;
+}
+#sidebar_a .active a{
+    margin-top: -55px;
+    
+}
+#sidebar_a #day a{
+    /* margin-top: 50px; */
+}
+#row1{
+    border-top: 0.5em solid #5385c1;
+}
+.img1{
+    background-image: url('../images/glass.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: absolute;
+    /* border-top: 0.5em solid #5385c1; */
+    opacity: 0.9;
+    
+}
+.form-group{
+    box-shadow: 0 0 5px rgba(0,0,0,0.9);
+}
+.map{
+    color: #ffffff;
+}
+h4{
+    color: #ffffff;
+}
+h5{
+    color: #ffffff;
+}
+.first{
+    padding-top: 80px;
+    text-align: center;
+}
+.first i{
+    padding-bottom: 15px;
+}
+h4{
+    padding-bottom: 30px;
+}
+.input-lg{
+    border-radius: 0;
+    margin: 7px 0;
+}
+h3{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 32px;
+}
+.btn_1{
+    text-align: center;
+    
+}
+.btn_2{
+    border-radius: 0;
+   border: 1px solid #5CB85C;
+   padding: 15px 50px;
+   box-shadow: 0 0 5px rgba(0,0,0,0.9);
+   
+}
+.fluid2{
+    margin-top: 20px;
+}
+  /* .focus-input100 {
+    position: absolute;
+    display: block;
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    top: -1px;
+    left: -1px;
+    pointer-events: none;
+    border: 1px solid #00ad5f;
+  
+    visibility: hidden;
+    opacity: 0;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+    -webkit-transform: scaleX(1.1) scaleY(1.3);
+    -moz-transform: scaleX(1.1) scaleY(1.3);
+    -ms-transform: scaleX(1.1) scaleY(1.3);
+    -o-transform: scaleX(1.1) scaleY(1.3);
+    transform: scaleX(1.1) scaleY(1.3);
+  }
+  .input100:focus + .focus-input100 {
+    visibility: visible;
+    opacity: 1;
+  
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .img1{
+        background-image: url('../images/glass.jpg');
+        height: 125vh;
+        background-size: cover;
+        background-position: absolute;
+        /* border-top: 0.5em solid #5385c1; */
+        opacity: 0.9;
+        
+    }
+}
